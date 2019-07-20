@@ -11,7 +11,7 @@ export default new Vuex.Store({
     username: localStorage.getItem('username') || '',
     // Utils
     loading: false,
-    host: 'http://192.168.1.104:8000',
+    host: 'https://profactory.herokuapp.com',
     authChecked: false,
     contentHeaders: { 'Content-type': 'Application/json' },
     notification: {
